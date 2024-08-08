@@ -1,3 +1,5 @@
-#heading{
+#heading,
+#parentDiv,
+#parentDiv2 {
     color: blueviolet;
 }
