@@ -24,3 +24,43 @@
 
 - https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb25z
 - https://github.com/browserslist/browserslist#query-composition
+
+#Namaste Food 
+
+/**
+* Header
+* - Logo
+* - Nav Items
+*Body
+* - Search
+* - RestaurantContainer
+*     - RestaurantCard
+*       - Img
+*       - Name of Res, Start Rating, Cuisines, Delivery time
+* Footer
+* - Copyright
+* - Links
+* - Address
+* - Contact 
+**/
+
+Two types of import/export
+
+- default export/import
+
+export default Componenet;
+import Component from "path";
+
+- Named export/import
+
+export const component;
+import {Component} from "path";
+
+# React Hooks
+Normal Js Utility Functions, written by Facebook developers in React
+2 very important hooks of React
+
+- useState() - Will be imported as Named import from path "react"
+- useEffect()
+
+

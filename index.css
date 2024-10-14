@@ -2,46 +2,54 @@
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
-    align-items: center;
-    padding: 5px 5px;
+    padding: 0px 15px;
 }
-.navContainer ul{
+
+.logo{
+    width: 130px;
+}
+
+.nav-items{
+    align-self: center;
+}
+
+.nav-items ul{
     display: flex;
     list-style: none;
 }
 
-.navContainer ul li{
- margin: 5px;
+.nav-items ul li{
+    padding: 10px;
+    margin: 10px;
 }
 
-.logo{
-    width: 100px;
-    height: 100px;
-}
-
-.searchBox{
+.res-card{
+    width: 215px;
     margin: 5px;
+    padding: 5px;
 }
 
-.restConatiner{
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.search{
+    padding: 10px 0px;
+}
+
+.res-logo{
+ width: 100%;
+ height: 135px;
+}
+
+.res-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.restCard{
-    padding: 5px;
-    background-color: #d3d3d366;
+.filter-btn{
     margin: 5px;
-    width: 200px;
-}
-
-.restCard:hover{
     cursor: pointer;
-    border: 1px solid black;
-}
-
-.restImg{
-    width: 200px;
-    height: 200px;
 }
